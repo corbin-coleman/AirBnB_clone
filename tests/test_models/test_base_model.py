@@ -40,12 +40,11 @@ class BaseModelTest(TestCase):
         bm.save()
         self.assertTrue(hasattr(bm, 'updated_at'))
 
-    def to_json(self):
+    def test_to_json(self):
         """ testing to_json method """
         bm = BaseModel()
         jsoned_bm = bm.to_json()
-        self.assertEqaul(type(jsoned_bm), 'dict')
-        self.assertIsinstance('id', jsoned_bm)
+        self.assertTrue(type(jsoned_bm) is dict)
 
 
 if __name__ == '__main__':
