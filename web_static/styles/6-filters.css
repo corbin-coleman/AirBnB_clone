@@ -68,3 +68,9 @@ h4 {
 ul {
     list-style-type: none;
 }
+
+h2 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
