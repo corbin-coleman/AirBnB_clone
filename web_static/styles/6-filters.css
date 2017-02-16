@@ -56,13 +56,19 @@ h4 {
 
 .popover {
     display: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 83.75%;
     background: #FAFAFA;
+    border: 1px solid #DDDDDD;
 }
 
 .locations:hover .popover {
     display: block;
-    background: #FAFAFA;
-    border: 1px solid #DDDDDD;
+}
+
+.amenities:hover .popover {
+    display: block;
 }
 
 ul {
