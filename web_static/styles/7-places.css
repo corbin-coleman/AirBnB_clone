@@ -23,5 +23,8 @@
 
 .places ul {
     list-style-type: none;
+}
+
+.places li {
     display: inline;
 }
