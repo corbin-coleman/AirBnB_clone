@@ -5,6 +5,7 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     padding: 10px;
+    position: absolute;
 }
 
 button {
@@ -25,12 +26,16 @@ button:hover {
 }
 
 .locations {
+    position: relative;
+    float: left;
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
 }
 
 .amenities {
+    position: relative;
+    float: left;
     height: 100%;
     width: 25%;
 }
