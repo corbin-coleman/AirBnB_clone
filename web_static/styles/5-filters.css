@@ -40,9 +40,11 @@ button:hover {
 
 h3 {
     font-weight: 600;
+    position: relative;
 }
 
 h4 {
     font-size: 14px;
     font-weight: 400;
+    position: relative;
 }
