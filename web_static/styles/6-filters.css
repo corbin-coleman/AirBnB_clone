@@ -75,18 +75,18 @@ h4 {
     display: block;
 }
 
-ul {
+.popover ul {
     list-style-type: none;
     margin-bottom: 20px;
 }
 
-h2 {
+.popover h2 {
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
-li {
+.popover li {
     position: relative;
     margin: 0;
     padding: 0;
