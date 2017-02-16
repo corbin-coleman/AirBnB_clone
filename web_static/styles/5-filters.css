@@ -27,7 +27,6 @@ button:hover {
 
 .locations {
     position: relative;
-    float: left;
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
@@ -35,7 +34,6 @@ button:hover {
 
 .amenities {
     position: relative;
-    float: left;
     height: 100%;
     width: 25%;
 }
