@@ -56,6 +56,7 @@ h4 {
 
 .popover {
     display: none;
+    background: #FAFAFA;
 }
 
 .locations:hover .popover {
