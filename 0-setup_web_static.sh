@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Setups some directories
 sudo apt-get update
 sudo apt-get install nginx -y
 sudo mkdir -p /data/web_static/releases/test
